@@ -1,0 +1,26 @@
+{
+    "ExamInfo": {
+        "ExamID"          : <EXAM_ID>,
+        "NumOfQuestions"  : <NUM_OF_QUESTIONS>,
+        "TimeLimit"       : <TIME_LIMIT>,
+        "ExamDescription" : "<EXAM_DESCRIPTION>",
+        "GradeLevel"      : "<GRADE_LEVEL>",
+        "SubjectMatter"   : "<SUBJECT_MATTER>"
+    },
+    "ProfessorInfo":{
+        "ProfessorID"          : <PROFESSOR_ID>,
+        "ProfessorEmail"       : "<PROFESSOR_EMAIL>",
+        "ProfessorFirstName"   : "<PROFESSOR_FIRST_NAME>",
+        "ProfessorLastName"   : "<PROFESSOR_LAST_NAME>"
+    },
+    "Questions": [
+        {
+            "QuestionID"     : <QUESTION_ID>,
+            "TypeOfQuestion" : "<TYPE_OF_QUESTION>",
+            "Question"       : {
+                "Prompt" : "<PROMPT>",
+                "OPTION" : "<OPTION>"
+            }
+        }
+    ]
+}
