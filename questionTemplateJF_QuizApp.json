@@ -1,9 +1,0 @@
-        {
-            "QuestionID"     : <QUESTION_ID>,
-            "TypeOfQuestion" : "<TYPE_OF_QUESTION>",
-            "Question"       : {
-                "Prompt" : "<PROMPT>",
-                "OPTION" : "<OPTION>"
-            }
-        }
-        <BREAK>
