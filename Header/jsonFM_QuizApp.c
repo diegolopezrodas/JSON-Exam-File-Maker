@@ -17,7 +17,7 @@ FILE *accessUserFile(char *userFilenames[], int examID) {
     scanf("%55s", userFile);
     
     // Allocating memory to store filename
-    userFilenames[examID] = malloc(strlen(userFile) +1);
+    userFilenames[examID] = malloc(strlen(userFile) + 1);
     
     // Copying filename to memory
     strcpy(userFilenames[examID], userFile);
